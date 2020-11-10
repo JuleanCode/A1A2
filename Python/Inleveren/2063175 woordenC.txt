@@ -1,0 +1,724 @@
+                                   import sys                                   
+                                 import socket                                  
+                         from datetime import datetime                          
+                                 import getpass                                 
+                                   import csv                                   
+                                                                                
+                                      """                                       
+                                                                                
+                            bestand = "kalender.txt"                            
+                               activiteiten = []                                
+                                                                                
+                                                                                
+                       def KalenderInlezen(bestandsnaam):                       
+                       bestand = open(bestandsnaam, "r")                        
+                 csvreader = csv.reader(bestand, delimiter=";")                 
+                               activiteiten = []                                
+                                                                                
+                              for i in csvreader:                               
+                             activiteiten.append(i)                             
+                                                                                
+                                bestand.close()                                 
+                                                                                
+                              return(activiteiten)                              
+                                                                                
+                                                                                
+                        def KalenderTonen(activiteiten):                        
+                     with open('kalender.txt') as csv_file:                     
+                csv_reader = csv.reader(csv_file, delimiter=';')                
+                                 line_count = 0                                 
+                                                                                
+                             for row in csv_reader:                             
+                              if line_count == 0:                               
+                          print(f'{" | ".join(row)}')                           
+                                line_count += 1                                 
+                                     else:                                      
+                  print(f'\t{row[0]} | {row[1]} | {row[2]}.')                   
+                                line_count += 1                                 
+                                csv_file.close()                                
+                                                                                
+         def ActiviteitToevoegen(bestandsnaam, dag, datum, activiteit):         
+                  with open(bestandsnaam, "a") as file_object:                  
+               file_object.write(f"\n{dag};{datum};{activiteit}")               
+                                                                                
+                               file_object.close                                
+                                                                                
+                          #KalenderTonen(activiteiten)                          
+                           #KalenderInlezen(bestand)                            
+                  ActiviteitToevoegen(bestand, "1", "1", "1")                   
+                                      """                                       
+#-------------------------------------------------------------------------------
+                        # Name:        Opdrachten week 5                        
+                                       #                                        
+                    # Author:      Bour / Zegers / Tossaint                     
+                                       #                                        
+                           # Created:     19-02-2016                            
+                           # Changed:     14-01-2020                            
+#-------------------------------------------------------------------------------
+                                      """                                       
+      In de praktijk is registratie van transacties essentieel (logging).       
+ Maak voor deze week één eigen logbestand aan, die bij iedere opgave gebruikt 
+                wordt om samenvattende gegevens te registreren.                 
+                                                                                
+Als er fouten in software of hardware ontstaan is de logfile de eerste plek waar
+                  gestart wordt met het zoeken naar oorzaken.                   
+                                                                                
+   Naar aanleiding van ieder script wordt de volgende gegevens geregistreerd:   
+                              naam van het script,                              
+                      de computer, waarop het script runt,                      
+                               de datum en tijd,                                
+                    de naam van de persoon, die ingelogd is.                    
+                                                                                
+          Let op: bewaar de logfile en voeg deze toe aan je portfolio.          
+    een logfile is een tekstbestand waarin je de gevraagde gegevens opslaat     
+                                      """                                       
+                                                                                
+                                 def log(data):                                 
+                                                                                
+                                   aantal = 0                                   
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                            file = file.readlines()                             
+                                 for i in file:                                 
+                                  aantal += 1                                   
+                                                                                
+          aantal = f"Het aantal regels in het bestand zijn: {aantal}"           
+                                                                                
+                              script = sys.argv[0]                              
+                        apparaat = socket.gethostname()                         
+                             date = datetime.now()                              
+                            user = getpass.getuser()                            
+                                                                                
+                   with open("Week_5/log.txt", "a") as file:                    
+   file.write(f"{script}\n{apparaat}\n{date}\n{user}\n{aantal}\n{data}\n\n")    
+                                                                                
+                                  file.close()                                  
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 1:                                  
+                                       #                                        
+            # Invoer : Deze file (scripting week 5.py) en een letter            
+         # Uitvoer: het aantal keer dat de ingevoerde letter voorkomt.          
+                                       #                                        
+                 # log:     het aantal regels in het bestand en                 
+               #          het aantal keer, dat de letter voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                                                                
+                     invoer = input("voer een letter in: ")                     
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                               file = file.read()                               
+                                 for i in file:                                 
+                                if i == invoer:                                 
+                                  aantal += 1                                   
+                                                                                
+      print(f"De letter {invoer} komt {aantal} keer in het bestand voor")       
+                                                                                
+               log(f"De letter {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 2:                                  
+                                       #                                        
+                       # Invoer : Deze file en een woord.                       
+# Uitvoer: het aantal keer dat het ingevoerde woord voorkomt. Het woord mag een 
+                 #          onderdeel van een ander woord zijn.                 
+                                       #                                        
+                 # log:     het aantal regels in het bestand en                 
+               #          het aantal keer, dat het woord voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                   check = 0                                    
+                                                                                
+                     invoer = input("voer een woord in: ")                      
+                                                                                
+                           lengteInvoer = len(invoer)                           
+                                                                                
+with open("Week_5/Opdrachten.py", "r") as file:     # opent de ingevulde file als 'file'
+                           file = file.read().lower()                           
+                             lengtefile = len(file)                             
+                                                                                
+while lengteInvoer < lengtefile:                # zodat je geen 'out of index error' krijgt
+if invoer == file[check:lengteInvoer]:      # kijkt of invoer gelijk is aan een bepaalde lokatie binnen in de file
+                                  aantal += 1                                   
+                                                                                
+                                   check += 1                                   
+                               lengteInvoer += 1                                
+                                                                                
+      print(f"Het woord {invoer} komt {aantal} keer in het bestand voor")       
+                                                                                
+               log(f"Het woord {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 3:                                  
+                                       #                                        
+    # Invoer : Deze file en een woord en hoofdlettergevoelig (een boolean).     
+# Uitvoer: het aantal keer dat het ingevoerde woord voorkomt. Het woord moet als
+#          zelfstandig woord voorkomen. Het moet dus voorafgegaan en afgesloten 
+                     #          worden door een leesteken.                      
+  #          als hoofdlettergevoelig == True, worden alleen woorden gevonden,   
+                       #          die exact gelijk zijn.                        
+                                       #                                        
+                        # log:     de invoergegevens en                         
+                 #          het aantal regels in het bestand en                 
+               #          het aantal keer, dat de letter voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet! zo min mogelijk                  
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                   check = 0                                    
+                                                                                
+                     invoer = input("voer een woord in: ")                      
+                                                                                
+                           lengteInvoer = len(invoer)                           
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                               file = file.read()                               
+                             lengtefile = len(file)                             
+                                                                                
+                        while lengteInvoer < lengtefile:                        
+                     if invoer == file[check:lengteInvoer]:                     
+                                                                                
+         eerste = file[check-1:check] in (" ", ".", ",", "!", "?", ":")         
+ laatste = file[lengteInvoer:lengteInvoer+1] in (" ", ".", ",", "!", "?", ":")  
+                                                                                
+                            if  eerste and laatste :                            
+                                  aantal += 1                                   
+                                                                                
+                                   check += 1                                   
+                               lengteInvoer += 1                                
+                                                                                
+print(f"Het woord {invoer} komt {aantal} keer met een leesteken ervoor en erachter in het bestand voor")
+                                                                                
+               log(f"Het woord {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 4:                                  
+                                       #                                        
+          # Invoer : Een file, waarin getallen voorkomen van 1 t/m 12.          
+ # Uitvoer: Een geconverteerde file, waarin de getallen vervangen zijn door de  
+                 #          woorden "een", "twee", "drie", enz,                 
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+         #          het aantal keer, dat de wijzigingen uitgevoerd zijn         
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                getallenDict = {                                
+                                    "een":1,                                    
+                                   "twee":2,                                    
+                                   "drie":3,                                    
+                                   "vier":4,                                    
+                                   "vijf":5,                                    
+                                    "zes":6,                                    
+                                   "zeven":7,                                   
+                                   "acht":8,                                    
+                                   "negen":9,                                   
+                                   "tien":10,                                   
+                                   "elf":11,                                    
+                                  "twaalf":12                                   
+                                       }                                        
+                                                                                
+                                   teller = 0                                   
+                                                                                
+               with open("Week_5/getallen.txt", "r") as getallen:               
+getallen = [ int(x) for x in getallen.read().split('\n') ]      # om van alle content in de list een int te maken
+                                                                                
+                                #print(getallen)                                
+           with open("Week_5/getallenText.txt", "a") as getallenText:           
+                               for i in getallen:                               
+                         if i in getallenDict.values():                         
+                    for value, key in getallenDict.items():                     
+                                  if i == key:                                  
+                        getallenText.write(f"{value}\n")                        
+                                  teller += 1                                   
+                                                                                
+                              getallenText.close()                              
+                                                                                
+                log(f"Er zijn {teller} wijzigingen uitgevoerd")                 
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 5:                                  
+                                       #                                        
+             # Invoer : De uitvoerfile van de voorafgaande opgave.              
+  # Uitvoer: Een geconverteerde file, waarin de woorden "een", "twee", "drie",  
+   #          enz, tot en met "twaalf" vervangen worden door getallen 1, 2, 3   
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+         #          het aantal keer, dat de wijzigingen uitgevoerd zijn         
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                getallenDict = {                                
+                                    "een":1,                                    
+                                   "twee":2,                                    
+                                   "drie":3,                                    
+                                   "vier":4,                                    
+                                   "vijf":5,                                    
+                                    "zes":6,                                    
+                                   "zeven":7,                                   
+                                   "acht":8,                                    
+                                   "negen":9,                                   
+                                   "tien":10,                                   
+                                   "elf":11,                                    
+                                  "twaalf":12                                   
+                                       }                                        
+                                                                                
+                                   teller = 0                                   
+                                                                                
+           with open("Week_5/getallenText.txt", "r") as getallenText:           
+                 getallenText = getallenText.read().split('\n')                 
+                                                                                
+                                #print(getallen)                                
+               with open("Week_5/getallen.txt", "a") as getallen:               
+                             for i in getallenText:                             
+                             if i in getallenDict:                              
+                    for value, key in getallenDict.items():                     
+                                 if i == value:                                 
+                           getallen.write(f"{key}\n")                           
+                                  teller += 1                                   
+                                                                                
+                                getallen.close()                                
+                                                                                
+                log(f"Er zijn {teller} wijzigingen uitgevoerd")                 
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 6:                                  
+                                       #                                        
+                          # Invoer : Dit textbestand.                           
+# Uitvoer: Een nieuw uitvoerbestand, met alle regels aangevult tot 80 karakters 
+                            #          met spaties.                             
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+   #          het aantal aangevulde spaties met het bijbehorende regelnummer    
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                            file = file.readlines()                             
+                                                                                
+                                 for i in file:                                 
+                                 i = i.strip()                                  
+                               while len(i) < 80:                               
+                                    i += " "                                    
+                                                                                
+                                   i += "\n"                                    
+                                                                                
+                with open("Week_5/woorden.txt", "a") as woorden:                
+                                woorden.write(i)                                
+                                woorden.close()                                 
+                                                                                
+                                                                                
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 7:                                  
+                                       #                                        
+                 # Invoer : Het uitvoerbestand van opdracht 6.                  
+ # Uitvoer: Een uitvoerbestand, met alle regels gespiegeld. Maak gebruik van de 
+                  #          standaardregel van 80 karakters!                   
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+                       #          het aantal lege regels                        
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 8:                                  
+                                       #                                        
+                 # Invoer : Het uitvoerbestand van opdracht 6.                  
+ # Uitvoer: Een uitvoerbestand, met alle tekstregels gecentreerd. Maak gebruik  
+               #          van de standaardregel van 80 karakters!               
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+                     #          het aantal niet lege regels                     
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                   import sys                                   
+                                 import socket                                  
+                         from datetime import datetime                          
+                                 import getpass                                 
+                                   import csv                                   
+                                                                                
+                                      """                                       
+                                                                                
+                            bestand = "kalender.txt"                            
+                               activiteiten = []                                
+                                                                                
+                                                                                
+                       def KalenderInlezen(bestandsnaam):                       
+                       bestand = open(bestandsnaam, "r")                        
+                 csvreader = csv.reader(bestand, delimiter=";")                 
+                               activiteiten = []                                
+                                                                                
+                              for i in csvreader:                               
+                             activiteiten.append(i)                             
+                                                                                
+                                bestand.close()                                 
+                                                                                
+                              return(activiteiten)                              
+                                                                                
+                                                                                
+                        def KalenderTonen(activiteiten):                        
+                     with open('kalender.txt') as csv_file:                     
+                csv_reader = csv.reader(csv_file, delimiter=';')                
+                                 line_count = 0                                 
+                                                                                
+                             for row in csv_reader:                             
+                              if line_count == 0:                               
+                          print(f'{" | ".join(row)}')                           
+                                line_count += 1                                 
+                                     else:                                      
+                  print(f'\t{row[0]} | {row[1]} | {row[2]}.')                   
+                                line_count += 1                                 
+                                csv_file.close()                                
+                                                                                
+         def ActiviteitToevoegen(bestandsnaam, dag, datum, activiteit):         
+                  with open(bestandsnaam, "a") as file_object:                  
+               file_object.write(f"\n{dag};{datum};{activiteit}")               
+                                                                                
+                               file_object.close                                
+                                                                                
+                          #KalenderTonen(activiteiten)                          
+                           #KalenderInlezen(bestand)                            
+                  ActiviteitToevoegen(bestand, "1", "1", "1")                   
+                                      """                                       
+#-------------------------------------------------------------------------------
+                        # Name:        Opdrachten week 5                        
+                                       #                                        
+                    # Author:      Bour / Zegers / Tossaint                     
+                                       #                                        
+                           # Created:     19-02-2016                            
+                           # Changed:     14-01-2020                            
+#-------------------------------------------------------------------------------
+                                      """                                       
+      In de praktijk is registratie van transacties essentieel (logging).       
+ Maak voor deze week één eigen logbestand aan, die bij iedere opgave gebruikt 
+                wordt om samenvattende gegevens te registreren.                 
+                                                                                
+Als er fouten in software of hardware ontstaan is de logfile de eerste plek waar
+                  gestart wordt met het zoeken naar oorzaken.                   
+                                                                                
+   Naar aanleiding van ieder script wordt de volgende gegevens geregistreerd:   
+                              naam van het script,                              
+                      de computer, waarop het script runt,                      
+                               de datum en tijd,                                
+                    de naam van de persoon, die ingelogd is.                    
+                                                                                
+          Let op: bewaar de logfile en voeg deze toe aan je portfolio.          
+    een logfile is een tekstbestand waarin je de gevraagde gegevens opslaat     
+                                      """                                       
+                                                                                
+                                 def log(data):                                 
+                                                                                
+                                   aantal = 0                                   
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                            file = file.readlines()                             
+                                 for i in file:                                 
+                                  aantal += 1                                   
+                                                                                
+          aantal = f"Het aantal regels in het bestand zijn: {aantal}"           
+                                                                                
+                              script = sys.argv[0]                              
+                        apparaat = socket.gethostname()                         
+                             date = datetime.now()                              
+                            user = getpass.getuser()                            
+                                                                                
+                   with open("Week_5/log.txt", "a") as file:                    
+   file.write(f"{script}\n{apparaat}\n{date}\n{user}\n{aantal}\n{data}\n\n")    
+                                                                                
+                                  file.close()                                  
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 1:                                  
+                                       #                                        
+            # Invoer : Deze file (scripting week 5.py) en een letter            
+         # Uitvoer: het aantal keer dat de ingevoerde letter voorkomt.          
+                                       #                                        
+                 # log:     het aantal regels in het bestand en                 
+               #          het aantal keer, dat de letter voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                                                                
+                     invoer = input("voer een letter in: ")                     
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                               file = file.read()                               
+                                 for i in file:                                 
+                                if i == invoer:                                 
+                                  aantal += 1                                   
+                                                                                
+      print(f"De letter {invoer} komt {aantal} keer in het bestand voor")       
+                                                                                
+               log(f"De letter {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 2:                                  
+                                       #                                        
+                       # Invoer : Deze file en een woord.                       
+# Uitvoer: het aantal keer dat het ingevoerde woord voorkomt. Het woord mag een 
+                 #          onderdeel van een ander woord zijn.                 
+                                       #                                        
+                 # log:     het aantal regels in het bestand en                 
+               #          het aantal keer, dat het woord voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                   check = 0                                    
+                                                                                
+                     invoer = input("voer een woord in: ")                      
+                                                                                
+                           lengteInvoer = len(invoer)                           
+                                                                                
+with open("Week_5/Opdrachten.py", "r") as file:     # opent de ingevulde file als 'file'
+                           file = file.read().lower()                           
+                             lengtefile = len(file)                             
+                                                                                
+while lengteInvoer < lengtefile:                # zodat je geen 'out of index error' krijgt
+if invoer == file[check:lengteInvoer]:      # kijkt of invoer gelijk is aan een bepaalde lokatie binnen in de file
+                                  aantal += 1                                   
+                                                                                
+                                   check += 1                                   
+                               lengteInvoer += 1                                
+                                                                                
+      print(f"Het woord {invoer} komt {aantal} keer in het bestand voor")       
+                                                                                
+               log(f"Het woord {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 3:                                  
+                                       #                                        
+    # Invoer : Deze file en een woord en hoofdlettergevoelig (een boolean).     
+# Uitvoer: het aantal keer dat het ingevoerde woord voorkomt. Het woord moet als
+#          zelfstandig woord voorkomen. Het moet dus voorafgegaan en afgesloten 
+                     #          worden door een leesteken.                      
+  #          als hoofdlettergevoelig == True, worden alleen woorden gevonden,   
+                       #          die exact gelijk zijn.                        
+                                       #                                        
+                        # log:     de invoergegevens en                         
+                 #          het aantal regels in het bestand en                 
+               #          het aantal keer, dat de letter voorkomt               
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet! zo min mogelijk                  
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                   aantal = 0                                   
+                                   check = 0                                    
+                                                                                
+                     invoer = input("voer een woord in: ")                      
+                                                                                
+                           lengteInvoer = len(invoer)                           
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                               file = file.read()                               
+                             lengtefile = len(file)                             
+                                                                                
+                        while lengteInvoer < lengtefile:                        
+                     if invoer == file[check:lengteInvoer]:                     
+                                                                                
+         eerste = file[check-1:check] in (" ", ".", ",", "!", "?", ":")         
+ laatste = file[lengteInvoer:lengteInvoer+1] in (" ", ".", ",", "!", "?", ":")  
+                                                                                
+                            if  eerste and laatste :                            
+                                  aantal += 1                                   
+                                                                                
+                                   check += 1                                   
+                               lengteInvoer += 1                                
+                                                                                
+print(f"Het woord {invoer} komt {aantal} keer met een leesteken ervoor en erachter in het bestand voor")
+                                                                                
+               log(f"Het woord {invoer} komt {aantal} keer voor")               
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 4:                                  
+                                       #                                        
+          # Invoer : Een file, waarin getallen voorkomen van 1 t/m 12.          
+ # Uitvoer: Een geconverteerde file, waarin de getallen vervangen zijn door de  
+                 #          woorden "een", "twee", "drie", enz,                 
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+         #          het aantal keer, dat de wijzigingen uitgevoerd zijn         
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                getallenDict = {                                
+                                    "een":1,                                    
+                                   "twee":2,                                    
+                                   "drie":3,                                    
+                                   "vier":4,                                    
+                                   "vijf":5,                                    
+                                    "zes":6,                                    
+                                   "zeven":7,                                   
+                                   "acht":8,                                    
+                                   "negen":9,                                   
+                                   "tien":10,                                   
+                                   "elf":11,                                    
+                                  "twaalf":12                                   
+                                       }                                        
+                                                                                
+                                   teller = 0                                   
+                                                                                
+               with open("Week_5/getallen.txt", "r") as getallen:               
+getallen = [ int(x) for x in getallen.read().split('\n') ]      # om van alle content in de list een int te maken
+                                                                                
+                                #print(getallen)                                
+           with open("Week_5/getallenText.txt", "a") as getallenText:           
+                               for i in getallen:                               
+                         if i in getallenDict.values():                         
+                    for value, key in getallenDict.items():                     
+                                  if i == key:                                  
+                        getallenText.write(f"{value}\n")                        
+                                  teller += 1                                   
+                                                                                
+                              getallenText.close()                              
+                                                                                
+                log(f"Er zijn {teller} wijzigingen uitgevoerd")                 
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 5:                                  
+                                       #                                        
+             # Invoer : De uitvoerfile van de voorafgaande opgave.              
+  # Uitvoer: Een geconverteerde file, waarin de woorden "een", "twee", "drie",  
+   #          enz, tot en met "twaalf" vervangen worden door getallen 1, 2, 3   
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+         #          het aantal keer, dat de wijzigingen uitgevoerd zijn         
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                      """                                       
+                                getallenDict = {                                
+                                    "een":1,                                    
+                                   "twee":2,                                    
+                                   "drie":3,                                    
+                                   "vier":4,                                    
+                                   "vijf":5,                                    
+                                    "zes":6,                                    
+                                   "zeven":7,                                   
+                                   "acht":8,                                    
+                                   "negen":9,                                   
+                                   "tien":10,                                   
+                                   "elf":11,                                    
+                                  "twaalf":12                                   
+                                       }                                        
+                                                                                
+                                   teller = 0                                   
+                                                                                
+           with open("Week_5/getallenText.txt", "r") as getallenText:           
+                 getallenText = getallenText.read().split('\n')                 
+                                                                                
+                                #print(getallen)                                
+               with open("Week_5/getallen.txt", "a") as getallen:               
+                             for i in getallenText:                             
+                             if i in getallenDict:                              
+                    for value, key in getallenDict.items():                     
+                                 if i == value:                                 
+                           getallen.write(f"{key}\n")                           
+                                  teller += 1                                   
+                                                                                
+                                getallen.close()                                
+                                                                                
+                log(f"Er zijn {teller} wijzigingen uitgevoerd")                 
+                                      """                                       
+#-------------------------------------------------------------------------------
+                                 # Opdracht 6:                                  
+                                       #                                        
+                          # Invoer : Dit textbestand.                           
+# Uitvoer: Een nieuw uitvoerbestand, met alle regels aangevult tot 80 karakters 
+                            #          met spaties.                             
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+   #          het aantal aangevulde spaties met het bijbehorende regelnummer    
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                                                                
+                with open("Week_5/Opdrachten.py", "r") as file:                 
+                            file = file.readlines()                             
+                                                                                
+                                 for i in file:                                 
+                                 i = i.strip()                                  
+                               while len(i) < 80:                               
+                                    i += " "                                    
+                                                                                
+                                   i += "\n"                                    
+                                                                                
+                with open("Week_5/woorden.txt", "a") as woorden:                
+                                woorden.write(i)                                
+                                woorden.close()                                 
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 7:                                  
+                                       #                                        
+                 # Invoer : Het uitvoerbestand van opdracht 6.                  
+ # Uitvoer: Een uitvoerbestand, met alle regels gespiegeld. Maak gebruik van de 
+                  #          standaardregel van 80 karakters!                   
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+                       #          het aantal lege regels                        
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------
+                                                                                
+                 with open("Week_5/woorden.txt", "r") as file:                  
+                            file = file.readlines()                             
+                                                                                
+                                 for i in file:                                 
+               with open("Week_5/woordenR.txt", "a") as woorden:                
+                             woorden.write(i[::-1])                             
+                                woorden.close()                                 
+                                                                                
+#-------------------------------------------------------------------------------
+                                 # Opdracht 8:                                  
+                                       #                                        
+                 # Invoer : Het uitvoerbestand van opdracht 6.                  
+ # Uitvoer: Een uitvoerbestand, met alle tekstregels gecentreerd. Maak gebruik  
+               #          van de standaardregel van 80 karakters!               
+                                       #                                        
+                                     # log:                                     
+                 #          het aantal regels in het bestand en                 
+                     #          het aantal niet lege regels                     
+        # info:    maak gebruik van het geleerde uit de afgelopen weken.        
+                  #          gebruik internet zo min mogelijk                   
+                      #          maak gebruik van functies                      
+#-------------------------------------------------------------------------------

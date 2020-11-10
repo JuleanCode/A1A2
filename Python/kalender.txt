@@ -1,0 +1,14 @@
+Dag;Datum;Activiteiten
+Maandag;28-9-2020;HC A1A1, A1A2 en A1A3
+Dinsdag;29-9-2020;Werk
+Woensdag;30-9-2020;DC A1A2
+Donderdag;1-10-2020;DC A1A3, WC A1A2
+Vrijdag;2-10-2020;WC A1A1, WC A1A3
+Zondag;4-10-2020;Dierendag
+Maandag;5-10-2020;HC A1A1, A1A2 en A1A3
+Dinsdag;6-10-2020;Werk
+Woensdag;7-10-2020;DC A1A2
+Donderdag;8-10-2020;DC A1A3, WC A1A2
+Vrijdag;9-10-2020;WC A1A1, WC A1A3
+Zaterdag;10-10-2020;Inleveropdrachten afmaken
+Maandag;12-10-2020;INLEVEREN1

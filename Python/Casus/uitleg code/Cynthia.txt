@@ -1,0 +1,94 @@
+Voor het bestand Client installeer je het databaseprogramma Mysql
+Anders geeft Python een error. Als je Mysql hebt gedownload maakt die voor deze geen foutmelding meer. Maar Python maakt wel de volgende foutmelding. 
+Dan moet je het programma pyttsx3 downloaden. Dan runnen.
+gTTS downloaden. Dan weer runnen. 
+Urllib3 downloaden. Dan runnen.
+Playsound downloaden. Dan weer runnen.
+Dan Run ik het nog een keer en dan werkt de code niet zonder heidisql en HeidiSQL runt niet zonder Laragon. Deze programma,s zijn allemaal nodig om het te kunnen runnen. 
+Het .py-bestand client runt, en vraagt om 1, 2, 3 of 4 in te voeren. Als je 1 invoert krijg je het woord/symbool/icoon CODEKID en daaronder het eerste woord ‘uitleg’. 
+Dat ziet er zo uit(met uitleg achter de windows):
+
+-Het .py-bestand ‘client’:
+
+import screens                                                                              # Importeerd het hoofdmenu
+
+# start the main window                                                                     # Start het hoofdmenu
+
+def main():                        
+	screens.mainMenu()                                                                      # Maakt van de screen die je gemaakt hebt het hoofdmenu
+
+while True:                                                                                 # Hiermee creëer je een loop om 'zolang het true is het hoofdmenu(main) op te roepen
+	main()
+
+-Het .py-bestand datacheck:
+import re                                                                                   # Het bestand re wordt geïmporteerd in dit bestand zodat het automatisch te gebruiken is in deze functie
+# in this file data checking / validating functions are shown
+valid_mail = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'                                # Vinden en Valideren van elk bestand wat een mail is
+
+valid_word = '[a-zA-Z]\w*'                                                                  # Dit stukje code zoekt en valideert elk woord wat begint met een van de letters a t/m z en omgekeerd 
+# is this value an email address
+def isMail(value):                                                                          # Deze variabele zoekt Python naar valide
+    return re.match(valid_mail, value)                                                      # Terugzetten
+
+def isWord(value):
+    return re.match(valid_word, value)
+
+-Het bestand screencompo:
+import re
+import platform
+import os                                                                                   # Deze drie import-zinnen importeren bestanden 
+
+import time                                                                                 # Importeert de verschillende delen om een geheel scherm te krijgen
+# contains different components for the screens
+
+
+
+def title():
+	print("""                 .___        __   .__    .___                                  # Printen van alle geprogrammeerde coden
+
+  ____  ____   __| _/____   |  | _|__| __| _/
+_/ ___\/  _ \ / __ |/ __ \  |  |/ /  |/ __ | 
+\  \__(  <_> ) /_/ \  ___/  |    <|  / /_/ | 
+ \___  >____/\____ |\___  > |__|_ \__\____ | 
+     \/           \/    \/       \/       \/ """)                                         
+ 
+def clear_screen():                                                                         # Definieren van een nieuwe variabele
+	if platform.platform()[:7] == "Windows":                                                # Creeeren van een if-statement, als het de goed versie is dan kan het door en als het een oudere versie is dan niet
+		os.system("cls")                                                                    # Zet het cls-bestand in het systeem
+	else:
+		os.system("clear")                                                                  # Anders wordt de inhoud van het systeem helemaal gewist
+
+# 404 page when a link is not well defined
+def error_404():                                                                            # Wanneer een link niet gedefinieerd is geef een error
+    clear_screen()                                                                          # Wis inhoud van het beeldscherm 
+    title()                                                                                 # Aanroep titel
+    print("_____kon deze pagina niet vinden._____")                                         # Wanneer bovengaande commando’s gebeuren/verschijnen print: kon deze pagina niet vinden om het te laten weten
+    time.sleep(3)                                                                           # In slaapstand
+    
+# to make a menu for the user
+# get's a list of options these options are links to different pages
+def menu_generator(options):
+    invalid_input = True                                                                    # Een niet werkende-input is True, dit is een  boolean-datatype
+    # in what range are the options
+    range_options = len(options)                                                            # Range- is len(gte) van de opties, het aantal opties is het aantal keer dat de lus/cyclus van de loop doorlopen wordt 
+    i = 0                                                                                   # Is een initialisatie/declaratie
+    # show the options on the screen
+    for op in options:                                                                      # Heeft dezelfde functie als bijvoorbeeld ‘for i in range’ je kunt de worden vervangen              
+        i += 1                                                                              # Ook wel i=i+1                      
+        print(i, ") " + op.text, sep="")
+        
+    # the default value for user input
+    user_in = "0"
+    # while the input of this menu is not valid we keep trying new input
+    while invalid_input:
+        user_in = input("=>")                                                               # De variabele ‘user_in’ moet groter zijn dan de input, anders stopt het proces
+        # verify user input on the menu
+        # check if the input is a digit and within range of the options given.
+        if re.match("\d+", user_in) and int(user_in) <= range_options:
+            invalid_input = False                                                           # Als de input niet groter is dan de variabele ‘user_in’ is het een invalide input
+        else:
+            print("Foute invoer. Probeer alstublieft opnieuw!")                             # Anders verschijnt er op het scherm dat ze opnieuw iets moeten ingeven 
+    # load the function from this link
+    options[int(user_in)-1].link()                                                          # Hier wordt de link aangeroepen in een functie
+
+Cynthia Riem

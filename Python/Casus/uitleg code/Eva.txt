@@ -1,0 +1,84 @@
+Uitleg code – Eva Wittkatis 
+
+ 
+
+Client.py 
+
+    Vanuit dit bestand wordt het programma gestart. Er worden de volgende acties uitgevoerd: 
+    Import screens -> importeert de functies benodigd om het programma te tonen en te draaien. 
+
+    screens.mainMenu() -> toont het hoofdmenu. 
+    while True: main() -> zorgt voor een eeuwige loop die zorgt dat de gebruiker altijd terug komt op het hoofdmenu. 
+
+
+Screens.py 
+
+    Dit bestand bevat de logica voor de verschillende schermen. 
+
+    Def mainMenu(): 
+        In deze functie wordt het scherm leeg gemaakt. Hierna wordt de titel en het menu getoond. De beschikbare opties worden gelinkt aan de andere functies in dit bestand. 
+
+    Def explanation(): 
+        Met deze functie wordt een uitleg over de zeven C’s getoond. Dit gebeurt door uit de database de lijst van C’s op te halen(“sevenC = req.get_C()”), deze worden hierna aan de gebruiker getoond. 
+        Hierna kan de gebruiker een van de C’s kiezen uit de lijst en wordt er verdere uitleg op het scherm getoond. 
+
+    Def read(data): 
+        Deze functie haalt de uitleg van alle C’s op uit de database. Hierna wordt de uitleg bijbehorende aan het meegegeven argument (“data”) getoond op het scherm. 
+        Tevens bevat deze functie logica om audio af te spelen bij de behorende gevraagde C. 
+
+    Def learn(): 
+        Binnen deze functie worden de oefeningen getoond en afgehandeld. 
+        De C’s worden uit de database opgehaald in een dictionary met als key de C en als value de bijbehorende tekst. Omdat je geen willekeurige key kan kiezen wordt van de keys een list gemaakt. 
+        Deze lijst word in en willekeurige volgorde gezet.  
+        Hierna wordt de oefening gestart. De C’s worden in willekeurige volgorde getoond en de gebruiker wordt gevraagd welke van de C’s het is. 
+        Nadat de gebruiker een keuze heeft gegeven, wordt de tijd opgeslagen en gecheckt of het antwoord juist is. 
+        Is het juist, wordt dit getoond en wordt de score opgehoogd met de tijd die de gebruiker nodig had. 
+        Is het fout, wordt dit getoond en wordt de volgende C getoond. 
+        Nadat alle C’s aan de beurt zijn geweest wordt de naam van de gebruiker gevraagd. Deze wordt samen met de score opgeslagen in de database. 
+
+    Def score(): 
+        Deze functie haalt de top 5 scores op uit de database en toont deze op het scherm. 
+
+    Def stop(): 
+        Met deze functie word het programma afgesloten. Door “sys.exit()” aan te roepen wordt het programma afgesloten. Uit deze functie springen zou zorgen dat er terug gegaan wordt naar het hoofdmenu door de while loop in de main functie. 
+
+
+menuLink.py 
+
+    Dit bestand voorziet een object waarin een link word gemaakt tussen een tekst en een functie. 
+
+
+screenCompo.py 
+
+    Dit bestand voorziet functies om het scherm te kunnen beïnvloeden. 
+
+    Def title(): 
+        Deze functie toont de titel van het programma op het scherm. 
+
+    Def clear_screen(): 
+        Deze functie maakt het scherm leeg. Omdat dit programma op zowel linux als windows kan draaien word er gecheckt welke OS het is. De system functie is namelijk verschillend. 
+
+    Def menu_generator(options): 
+        Deze functie toont een lijst van menu opties en vraagt om input van de gebruiker. Met deze input wordt de juiste functie aangeroepen die bij de geselecteerde optie behoord. 
+
+
+Req.py 
+
+    Dit bestand voorziet de toegang tot de database. 
+
+    Def get_C(): 
+        Er wordt een connectie gemaakt met de SQL database. 
+        Hierna word een SELECT query gedaan waarmee een dictionary gevuld wordt met de index als key en de bijbehorende C als value. 
+
+    Def info_C(): 
+        Er wordt een connectie gemaakt met de SQL database. 
+        Hierna wordt een SELECT query gedaan waarmee een dictionary gevuld wordt met de C als key en de bijbehorende uitleg als value. 
+
+    Def get_score(): 
+        Er wordt een connectie gemaakt met de SQL database. 
+        Hierna wordt een SELECT query gedaan waarmee de top 5 scores en de bijbehorende gebruikersnamen worden opgehaald. 
+        Om de output overzichtelijk te maken wordt er een list van gemaakt met een string van de gebruikersnaam en score. 
+
+    Def save_score(): 
+        Er wordt een connectie gemaakt met de SQL database. 
+        Met een INSERT query wordt de nieuwe gebruiker en score toegevoegd aan de database. 

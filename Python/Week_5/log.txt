@@ -1,0 +1,35 @@
+d:/HBO/Leerjaar 1/A1A2/Python/Week_5/Opdrachten.py
+DESKTOP-FR91F61
+2020-09-30 18:47:44.227660
+rayho
+Het aantal regels in het bestand zijn: 251
+De letter f komt 88 keer voor
+
+d:/HBO/Leerjaar 1/A1A2/Python/Week_5/Opdrachten.py
+DESKTOP-FR91F61
+2020-09-30 18:49:13.557353
+rayho
+Het aantal regels in het bestand zijn: 253
+Het woord info komt 8 keer voor
+
+d:/HBO/Leerjaar 1/A1A2/Python/Week_5/Opdrachten.py
+DESKTOP-FR91F61
+2020-10-01 10:49:37.141759
+rayho
+Het aantal regels in het bestand zijn: 278
+Het woord internet komt 8 keer voor
+
+d:/HBO/Leerjaar 1/A1A2/Python/Week_5/Opdrachten.py
+DESKTOP-FR91F61
+2020-10-06 16:47:31.129890
+rayho
+Het aantal regels in het bestand zijn: 339
+Er zijn 12 wijzigingen uitgevoerd
+
+d:/HBO/Leerjaar 1/A1A2/Python/Week_5/Opdrachten.py
+DESKTOP-FR91F61
+2020-10-06 16:49:26.877066
+rayho
+Het aantal regels in het bestand zijn: 343
+Er zijn 24 wijzigingen uitgevoerd
+

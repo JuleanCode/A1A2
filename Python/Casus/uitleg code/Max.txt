@@ -1,0 +1,28 @@
+Uitleg Code bij de Casus
+
+
+1 
+Open Laragon en HediSQL, zonder dat deze programma’s open zijn komt er een foutmelding en kan de code niet worden geopend
+Uitleg functie 
+
+2 
+Als er ‘1’wordt ingevoerd wordt de uitleg functie aangeroepen.
+
+3 
+Binnen deze functie worden de 7c’s onder elkaar weergegeven binnen een keuzemenu 
+
+4
+In dit keuzemenu kan de user de cijfers 1 Tm/ 7 invoeren om de uitleg van één van de C’s te ontvangen en ook voorgelezen krijgt door middel van een Import genaamd Playsound. De C met de bijbehorende uitleg wordt dan de database gehaald en weergegeven voor de user. (indien de database niet is geopend, word hier ook niets weergegeven)
+    De functie database="codekid"
+Is om weergegeven welke in welke database gezocht moet worden voor de informatie 
+Als de user klaar is met oefenen kan de de user ‘terug ”invoeren om terug te komen op het menu scherm 
+Uitleg Oefenen.
+Als er ‘2’wordt ingevoerd wordt de oefen functie aangeroepen 
+    Binnen deze functie wordt uit de database de data gehaald om weer te geven voor de user.     De date die weergegeven wordt is de uitleg van een willekeurige C waarbij de user de juiste C
+Aan moet geven, indien de user geen antwoord geeft binnen de 60 seconden, dan wordt de vraag als ongeldig verklaard.
+Zodra de vraag wordt gestart wordt er er timer gestart via, de punten die de user krijgt worden weggeschreven aan de username van de user met de bijbehorende score.
+Als je klaar bent moet oefen kan de user “terug” invoeren om terug te gaan naar de hoofdmenu scherm.
+Score
+    Bij de score functie wordt uit de database de user met de bijbehorende score weergegeven in het programma. 
+Afsluiten 
+    Sluit het programma af.

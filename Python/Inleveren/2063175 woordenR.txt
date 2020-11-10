@@ -1,0 +1,725 @@
+
+                                                                      sys tropmi
+                                                                   tekcos tropmi
+                                                   emitetad tropmi emitetad morf
+                                                                  ssapteg tropmi
+                                                                      vsc tropmi
+                                                                                
+                                                                             """
+                                                                                
+                                                        "txt.rednelak" = dnatseb
+                                                               ][ = netietivitca
+                                                                                
+                                                                                
+                                              :)maansdnatseb(nezelnIrednelaK fed
+                                               )"r" ,maansdnatseb(nepo = dnatseb
+                                  )";"=retimiled ,dnatseb(redaer.vsc = redaervsc
+                                                               ][ = netietivitca
+                                                                                
+                                                             :redaervsc ni i rof
+                                                          )i(dneppa.netietivitca
+                                                                                
+                                                                 )(esolc.dnatseb
+                                                                                
+                                                            )netietivitca(nruter
+                                                                                
+                                                                                
+                                                :)netietivitca(nenoTrednelaK fed
+                                          :elif_vsc sa )'txt.rednelak'(nepo htiw
+                                )';'=retimiled ,elif_vsc(redaer.vsc = redaer_vsc
+                                                                  0 = tnuoc_enil
+                                                                                
+                                                          :redaer_vsc ni wor rof
+                                                             :0 == tnuoc_enil fi
+                                                     )'})wor(nioj." | "{'f(tnirp
+                                                                 1 =+ tnuoc_enil
+                                                                           :esle
+                                     )'.}]2[wor{ | }]1[wor{ | }]0[wor{t\'f(tnirp
+                                                                 1 =+ tnuoc_enil
+                                                                )(esolc.elif_vsc
+                                                                                
+                  :)tietivitca ,mutad ,gad ,maansdnatseb(negeoveoTtietivitcA fed
+                                    :tcejbo_elif sa )"a" ,maansdnatseb(nepo htiw
+                              )"}tietivitca{;}mutad{;}gad{n\"f(etirw.tcejbo_elif
+                                                                                
+                                                               esolc.tcejbo_elif
+                                                                                
+                                                    )netietivitca(nenoTrednelaK#
+                                                       )dnatseb(nezelnIrednelaK#
+                                     )"1" ,"1" ,"1" ,dnatseb(negeoveoTtietivitcA
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                5 keew nethcardpO        :emaN #
+                                                                               #
+                                         tniassoT / sregeZ / ruoB      :rohtuA #
+                                                                               #
+                                                       6102-20-91     :detaerC #
+                                                       0202-10-41     :degnahC #
+-------------------------------------------------------------------------------#
+                                                                             """
+             .)gniggol( leeitnesse seitcasnart nav eitartsiger si kjitkarp ed nI
+  tkiurbeg evagpo eredei jib eid ,naa dnatsebgol negie n©Ã©Ã keew ezed roov kaaM
+                                 .nerertsiger et snevegeg ednettavnemas mo tdrow
+                                                                                
+raaw kelp etsree ed elifgol ed si naatstno erawdrah fo erawtfos ni netuof re slA
+                                     .nekazroo raan nekeoz teh tem tdrow tratseg
+                                                                                
+      :dreertsigereg snevegeg edneglov ed tdrow tpircs redei nav gnidielnaa raaN
+                                                            ,tpircs teh nav maan
+                                            ,tnur tpircs teh poraaw ,retupmoc ed
+                                                               ,djit ne mutad ed
+                                        .si dgolegni eid ,noosrep ed nav maan ed
+                                                                                
+                    .oiloftrop ej naa eot ezed geov ne elifgol ed raaweb :po teL
+         taalspo snevegeg edgaarveg ed ej niraaw dnatsebtsket nee si elifgol nee
+                                                                             """
+                                                                                
+                                                                  :)atad(gol fed
+                                                                                
+                                                                      0 = latnaa
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                         )(senildaer.elif = elif
+                                                                  :elif ni i rof
+                                                                     1 =+ latnaa
+                                                                                
+                     "}latnaa{ :njiz dnatseb teh ni sleger latnaa teH"f = latnaa
+                                                                                
+                                                            ]0[vgra.sys = tpircs
+                                                 )(emantsohteg.tekcos = taarappa
+                                                           )(won.emitetad = etad
+                                                        )(resuteg.ssapteg = resu
+                                                                                
+                                       :elif sa )"a" ,"txt.gol/5_keeW"(nepo htiw
+       )"n\n\}atad{n\}latnaa{n\}resu{n\}etad{n\}taarappa{n\}tpircs{"f(etirw.elif
+                                                                                
+                                                                    )(esolc.elif
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :1 thcardpO #
+                                                                               #
+                        rettel nee ne )yp.5 keew gnitpircs( elif ezeD : reovnI #
+                   .tmokroov rettel edreovegni ed tad reek latnaa teh :reovtiU #
+                                                                               #
+                                  ne dnatseb teh ni sleger latnaa teh     :gol #
+                              tmokroov rettel ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                                
+                                          )" :ni rettel nee reov"(tupni = reovni
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                              )(daer.elif = elif
+                                                                  :elif ni i rof
+                                                                 :reovni == i fi
+                                                                     1 =+ latnaa
+                                                                                
+             )"roov dnatseb teh ni reek }latnaa{ tmok }reovni{ rettel eD"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ rettel eD"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :2 thcardpO #
+                                                                               #
+                                              .droow nee ne elif ezeD : reovnI #
+ nee gam droow teH .tmokroov droow edreovegni teh tad reek latnaa teh :reovtiU #
+                                  .njiz droow redna nee nav leedredno          #
+                                                                               #
+                                  ne dnatseb teh ni sleger latnaa teh     :gol #
+                              tmokroov droow teh tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                       0 = kcehc
+                                                                                
+                                           )" :ni droow nee reov"(tupni = reovni
+                                                                                
+                                                      )reovni(nel = reovnIetgnel
+                                                                                
+'elif' sla elif edluvegni ed tnepo #     :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                      )(rewol.)(daer.elif = elif
+                                                          )elif(nel = elifetgnel
+                                                                                
+tgjirk 'rorre xedni fo tuo' neeg ej tadoz #                :elifetgnel < reovnIetgnel elihw
+elif ed ni nennib eitakol edlaapeb nee naa si kjileg reovni fo tkjik #      :]reovnIetgnel:kcehc[elif == reovni fi
+                                                                     1 =+ latnaa
+                                                                                
+                                                                      1 =+ kcehc
+                                                               1 =+ reovnIetgnel
+                                                                                
+             )"roov dnatseb teh ni reek }latnaa{ tmok }reovni{ droow teH"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ droow teH"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :3 thcardpO #
+                                                                               #
+         .)naeloob nee( gileovegretteldfooh ne droow nee ne elif ezeD : reovnI #
+sla teom droow teH .tmokroov droow edreovegni teh tad reek latnaa teh :reovtiU #
+ netolsegfa ne naagegfaroov sud teom teH .nemokroov droow gidnatsflez          #
+                                           .neketseel nee rood nedrow          #
+     ,nednoveg nedroow neella nedrow ,eurT == gileovegretteldfooh sla          #
+                                               .njiz kjileg tcaxe eid          #
+                                                                               #
+                                                 ne snevegegreovni ed     :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                              tmokroov rettel ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                    kjilegom nim oz !tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                       0 = kcehc
+                                                                                
+                                           )" :ni droow nee reov"(tupni = reovni
+                                                                                
+                                                      )reovni(nel = reovnIetgnel
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                              )(daer.elif = elif
+                                                          )elif(nel = elifetgnel
+                                                                                
+                                                :elifetgnel < reovnIetgnel elihw
+                                          :]reovnIetgnel:kcehc[elif == reovni fi
+                                                                                
+                  )":" ,"?" ,"!" ,"," ,"." ," "( ni ]kcehc:1-kcehc[elif = etsree
+   )":" ,"?" ,"!" ,"," ,"." ," "( ni ]1+reovnIetgnel:reovnIetgnel[elif = etstaal
+                                                                                
+                                                        : etstaal dna etsree  fi
+                                                                     1 =+ latnaa
+                                                                                
+                                                                      1 =+ kcehc
+                                                               1 =+ reovnIetgnel
+                                                                                
+)"roov dnatseb teh ni rethcare ne roovre neketseel nee tem reek }latnaa{ tmok }reovni{ droow teH"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ droow teH"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :4 thcardpO #
+                                                                               #
+                    .21 m/t 1 nav nemokroov nellateg niraaw ,elif neE : reovnI #
+   ed rood njiz negnavrev nellateg ed niraaw ,elif edreetrevnoceg neE :reovtiU #
+                                  ,zne ,"eird" ,"eewt" ,"nee" nedroow          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                  njiz dreovegtiu negnigizjiw ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                { = tciDnellateg
+                                                                        ,1:"nee"
+                                                                       ,2:"eewt"
+                                                                       ,3:"eird"
+                                                                       ,4:"reiv"
+                                                                       ,5:"fjiv"
+                                                                        ,6:"sez"
+                                                                      ,7:"nevez"
+                                                                       ,8:"thca"
+                                                                      ,9:"negen"
+                                                                      ,01:"neit"
+                                                                       ,11:"fle"
+                                                                     21:"flaawt"
+                                                                               }
+                                                                                
+                                                                      0 = rellet
+                                                                                
+                              :nellateg sa )"r" ,"txt.nellateg/5_keeW"(nepo htiw
+nekam et tni nee tsil ed ni tnetnoc ella nav mo #      ] )'n\'(tilps.)(daer.nellateg ni x rof )x(tni [ = nellateg
+                                                                                
+                                                                )nellateg(tnirp#
+                      :txeTnellateg sa )"a" ,"txt.txeTnellateg/5_keeW"(nepo htiw
+                                                              :nellateg ni i rof
+                                                  :)(seulav.tciDnellateg ni i fi
+                                         :)(smeti.tciDnellateg ni yek ,eulav rof
+                                                                    :yek == i fi
+                                                )"n\}eulav{"f(etirw.txeTnellateg
+                                                                     1 =+ rellet
+                                                                                
+                                                            )(esolc.txeTnellateg
+                                                                                
+                                 )"dreovegtiu negnigizjiw }rellet{ njiz rE"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :5 thcardpO #
+                                                                               #
+                           .evagpo ednaagfaroov ed nav elifreovtiu eD : reovnI #
+    ,"eird" ,"eewt" ,"nee" nedroow ed niraaw ,elif edreetrevnoceg neE :reovtiU #
+      3 ,2 ,1 nellateg rood nedrow negnavrev "flaawt" tem ne tot ,zne          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                  njiz dreovegtiu negnigizjiw ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                { = tciDnellateg
+                                                                        ,1:"nee"
+                                                                       ,2:"eewt"
+                                                                       ,3:"eird"
+                                                                       ,4:"reiv"
+                                                                       ,5:"fjiv"
+                                                                        ,6:"sez"
+                                                                      ,7:"nevez"
+                                                                       ,8:"thca"
+                                                                      ,9:"negen"
+                                                                      ,01:"neit"
+                                                                       ,11:"fle"
+                                                                     21:"flaawt"
+                                                                               }
+                                                                                
+                                                                      0 = rellet
+                                                                                
+                      :txeTnellateg sa )"r" ,"txt.txeTnellateg/5_keeW"(nepo htiw
+                                  )'n\'(tilps.)(daer.txeTnellateg = txeTnellateg
+                                                                                
+                                                                )nellateg(tnirp#
+                              :nellateg sa )"a" ,"txt.nellateg/5_keeW"(nepo htiw
+                                                          :txeTnellateg ni i rof
+                                                           :tciDnellateg ni i fi
+                                         :)(smeti.tciDnellateg ni yek ,eulav rof
+                                                                  :eulav == i fi
+                                                      )"n\}yek{"f(etirw.nellateg
+                                                                     1 =+ rellet
+                                                                                
+                                                                )(esolc.nellateg
+                                                                                
+                                 )"dreovegtiu negnigizjiw }rellet{ njiz rE"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :6 thcardpO #
+                                                                               #
+                                                     .dnatsebtxet tiD : reovnI #
+ sretkarak 08 tot tluvegnaa sleger ella tem ,dnatsebreovtiu wuein neE :reovtiU #
+                                                         .seitaps tem          #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+       remmunleger ednerohebjib teh tem seitaps edluvegnaa latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                         )(senildaer.elif = elif
+                                                                                
+                                                                  :elif ni i rof
+                                                                   )(pirts.i = i
+                                                              :08 < )i(nel elihw
+                                                                        " " =+ i
+                                                                                
+                                                                       "n\" =+ i
+                                                                                
+                                :nedroow sa )"a" ,"txt.nedroow/5_keeW"(nepo htiw
+                                                                )i(etirw.nedroow
+                                                                 )(esolc.nedroow
+                                                                                
+                                                                                
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :7 thcardpO #
+                                                                               #
+                                   .6 thcardpo nav dnatsebreovtiu teH : reovnI #
+  ed nav kiurbeg kaaM .dlegeipseg sleger ella tem ,dnatsebreovtiu neE :reovtiU #
+                                     !sretkarak 08 nav legerdraadnats          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                                               sleger egel latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :8 thcardpO #
+                                                                               #
+                                   .6 thcardpo nav dnatsebreovtiu teH : reovnI #
+   kiurbeg kaaM .dreertneceg slegertsket ella tem ,dnatsebreovtiu neE :reovtiU #
+                              !sretkarak 08 nav legerdraadnats ed nav          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                                          sleger egel tein latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                      sys tropmi
+                                                                   tekcos tropmi
+                                                   emitetad tropmi emitetad morf
+                                                                  ssapteg tropmi
+                                                                      vsc tropmi
+                                                                                
+                                                                             """
+                                                                                
+                                                        "txt.rednelak" = dnatseb
+                                                               ][ = netietivitca
+                                                                                
+                                                                                
+                                              :)maansdnatseb(nezelnIrednelaK fed
+                                               )"r" ,maansdnatseb(nepo = dnatseb
+                                  )";"=retimiled ,dnatseb(redaer.vsc = redaervsc
+                                                               ][ = netietivitca
+                                                                                
+                                                             :redaervsc ni i rof
+                                                          )i(dneppa.netietivitca
+                                                                                
+                                                                 )(esolc.dnatseb
+                                                                                
+                                                            )netietivitca(nruter
+                                                                                
+                                                                                
+                                                :)netietivitca(nenoTrednelaK fed
+                                          :elif_vsc sa )'txt.rednelak'(nepo htiw
+                                )';'=retimiled ,elif_vsc(redaer.vsc = redaer_vsc
+                                                                  0 = tnuoc_enil
+                                                                                
+                                                          :redaer_vsc ni wor rof
+                                                             :0 == tnuoc_enil fi
+                                                     )'})wor(nioj." | "{'f(tnirp
+                                                                 1 =+ tnuoc_enil
+                                                                           :esle
+                                     )'.}]2[wor{ | }]1[wor{ | }]0[wor{t\'f(tnirp
+                                                                 1 =+ tnuoc_enil
+                                                                )(esolc.elif_vsc
+                                                                                
+                  :)tietivitca ,mutad ,gad ,maansdnatseb(negeoveoTtietivitcA fed
+                                    :tcejbo_elif sa )"a" ,maansdnatseb(nepo htiw
+                              )"}tietivitca{;}mutad{;}gad{n\"f(etirw.tcejbo_elif
+                                                                                
+                                                               esolc.tcejbo_elif
+                                                                                
+                                                    )netietivitca(nenoTrednelaK#
+                                                       )dnatseb(nezelnIrednelaK#
+                                     )"1" ,"1" ,"1" ,dnatseb(negeoveoTtietivitcA
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                5 keew nethcardpO        :emaN #
+                                                                               #
+                                         tniassoT / sregeZ / ruoB      :rohtuA #
+                                                                               #
+                                                       6102-20-91     :detaerC #
+                                                       0202-10-41     :degnahC #
+-------------------------------------------------------------------------------#
+                                                                             """
+             .)gniggol( leeitnesse seitcasnart nav eitartsiger si kjitkarp ed nI
+  tkiurbeg evagpo eredei jib eid ,naa dnatsebgol negie n©Ã©Ã keew ezed roov kaaM
+                                 .nerertsiger et snevegeg ednettavnemas mo tdrow
+                                                                                
+raaw kelp etsree ed elifgol ed si naatstno erawdrah fo erawtfos ni netuof re slA
+                                     .nekazroo raan nekeoz teh tem tdrow tratseg
+                                                                                
+      :dreertsigereg snevegeg edneglov ed tdrow tpircs redei nav gnidielnaa raaN
+                                                            ,tpircs teh nav maan
+                                            ,tnur tpircs teh poraaw ,retupmoc ed
+                                                               ,djit ne mutad ed
+                                        .si dgolegni eid ,noosrep ed nav maan ed
+                                                                                
+                    .oiloftrop ej naa eot ezed geov ne elifgol ed raaweb :po teL
+         taalspo snevegeg edgaarveg ed ej niraaw dnatsebtsket nee si elifgol nee
+                                                                             """
+                                                                                
+                                                                  :)atad(gol fed
+                                                                                
+                                                                      0 = latnaa
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                         )(senildaer.elif = elif
+                                                                  :elif ni i rof
+                                                                     1 =+ latnaa
+                                                                                
+                     "}latnaa{ :njiz dnatseb teh ni sleger latnaa teH"f = latnaa
+                                                                                
+                                                            ]0[vgra.sys = tpircs
+                                                 )(emantsohteg.tekcos = taarappa
+                                                           )(won.emitetad = etad
+                                                        )(resuteg.ssapteg = resu
+                                                                                
+                                       :elif sa )"a" ,"txt.gol/5_keeW"(nepo htiw
+       )"n\n\}atad{n\}latnaa{n\}resu{n\}etad{n\}taarappa{n\}tpircs{"f(etirw.elif
+                                                                                
+                                                                    )(esolc.elif
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :1 thcardpO #
+                                                                               #
+                        rettel nee ne )yp.5 keew gnitpircs( elif ezeD : reovnI #
+                   .tmokroov rettel edreovegni ed tad reek latnaa teh :reovtiU #
+                                                                               #
+                                  ne dnatseb teh ni sleger latnaa teh     :gol #
+                              tmokroov rettel ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                                
+                                          )" :ni rettel nee reov"(tupni = reovni
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                              )(daer.elif = elif
+                                                                  :elif ni i rof
+                                                                 :reovni == i fi
+                                                                     1 =+ latnaa
+                                                                                
+             )"roov dnatseb teh ni reek }latnaa{ tmok }reovni{ rettel eD"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ rettel eD"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :2 thcardpO #
+                                                                               #
+                                              .droow nee ne elif ezeD : reovnI #
+ nee gam droow teH .tmokroov droow edreovegni teh tad reek latnaa teh :reovtiU #
+                                  .njiz droow redna nee nav leedredno          #
+                                                                               #
+                                  ne dnatseb teh ni sleger latnaa teh     :gol #
+                              tmokroov droow teh tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                       0 = kcehc
+                                                                                
+                                           )" :ni droow nee reov"(tupni = reovni
+                                                                                
+                                                      )reovni(nel = reovnIetgnel
+                                                                                
+'elif' sla elif edluvegni ed tnepo #     :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                      )(rewol.)(daer.elif = elif
+                                                          )elif(nel = elifetgnel
+                                                                                
+tgjirk 'rorre xedni fo tuo' neeg ej tadoz #                :elifetgnel < reovnIetgnel elihw
+elif ed ni nennib eitakol edlaapeb nee naa si kjileg reovni fo tkjik #      :]reovnIetgnel:kcehc[elif == reovni fi
+                                                                     1 =+ latnaa
+                                                                                
+                                                                      1 =+ kcehc
+                                                               1 =+ reovnIetgnel
+                                                                                
+             )"roov dnatseb teh ni reek }latnaa{ tmok }reovni{ droow teH"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ droow teH"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :3 thcardpO #
+                                                                               #
+         .)naeloob nee( gileovegretteldfooh ne droow nee ne elif ezeD : reovnI #
+sla teom droow teH .tmokroov droow edreovegni teh tad reek latnaa teh :reovtiU #
+ netolsegfa ne naagegfaroov sud teom teH .nemokroov droow gidnatsflez          #
+                                           .neketseel nee rood nedrow          #
+     ,nednoveg nedroow neella nedrow ,eurT == gileovegretteldfooh sla          #
+                                               .njiz kjileg tcaxe eid          #
+                                                                               #
+                                                 ne snevegegreovni ed     :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                              tmokroov rettel ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                    kjilegom nim oz !tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                      0 = latnaa
+                                                                       0 = kcehc
+                                                                                
+                                           )" :ni droow nee reov"(tupni = reovni
+                                                                                
+                                                      )reovni(nel = reovnIetgnel
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                              )(daer.elif = elif
+                                                          )elif(nel = elifetgnel
+                                                                                
+                                                :elifetgnel < reovnIetgnel elihw
+                                          :]reovnIetgnel:kcehc[elif == reovni fi
+                                                                                
+                  )":" ,"?" ,"!" ,"," ,"." ," "( ni ]kcehc:1-kcehc[elif = etsree
+   )":" ,"?" ,"!" ,"," ,"." ," "( ni ]1+reovnIetgnel:reovnIetgnel[elif = etstaal
+                                                                                
+                                                        : etstaal dna etsree  fi
+                                                                     1 =+ latnaa
+                                                                                
+                                                                      1 =+ kcehc
+                                                               1 =+ reovnIetgnel
+                                                                                
+)"roov dnatseb teh ni rethcare ne roovre neketseel nee tem reek }latnaa{ tmok }reovni{ droow teH"f(tnirp
+                                                                                
+                              )"roov reek }latnaa{ tmok }reovni{ droow teH"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :4 thcardpO #
+                                                                               #
+                    .21 m/t 1 nav nemokroov nellateg niraaw ,elif neE : reovnI #
+   ed rood njiz negnavrev nellateg ed niraaw ,elif edreetrevnoceg neE :reovtiU #
+                                  ,zne ,"eird" ,"eewt" ,"nee" nedroow          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                  njiz dreovegtiu negnigizjiw ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                { = tciDnellateg
+                                                                        ,1:"nee"
+                                                                       ,2:"eewt"
+                                                                       ,3:"eird"
+                                                                       ,4:"reiv"
+                                                                       ,5:"fjiv"
+                                                                        ,6:"sez"
+                                                                      ,7:"nevez"
+                                                                       ,8:"thca"
+                                                                      ,9:"negen"
+                                                                      ,01:"neit"
+                                                                       ,11:"fle"
+                                                                     21:"flaawt"
+                                                                               }
+                                                                                
+                                                                      0 = rellet
+                                                                                
+                              :nellateg sa )"r" ,"txt.nellateg/5_keeW"(nepo htiw
+nekam et tni nee tsil ed ni tnetnoc ella nav mo #      ] )'n\'(tilps.)(daer.nellateg ni x rof )x(tni [ = nellateg
+                                                                                
+                                                                )nellateg(tnirp#
+                      :txeTnellateg sa )"a" ,"txt.txeTnellateg/5_keeW"(nepo htiw
+                                                              :nellateg ni i rof
+                                                  :)(seulav.tciDnellateg ni i fi
+                                         :)(smeti.tciDnellateg ni yek ,eulav rof
+                                                                    :yek == i fi
+                                                )"n\}eulav{"f(etirw.txeTnellateg
+                                                                     1 =+ rellet
+                                                                                
+                                                            )(esolc.txeTnellateg
+                                                                                
+                                 )"dreovegtiu negnigizjiw }rellet{ njiz rE"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :5 thcardpO #
+                                                                               #
+                           .evagpo ednaagfaroov ed nav elifreovtiu eD : reovnI #
+    ,"eird" ,"eewt" ,"nee" nedroow ed niraaw ,elif edreetrevnoceg neE :reovtiU #
+      3 ,2 ,1 nellateg rood nedrow negnavrev "flaawt" tem ne tot ,zne          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                  njiz dreovegtiu negnigizjiw ed tad ,reek latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                             """
+                                                                { = tciDnellateg
+                                                                        ,1:"nee"
+                                                                       ,2:"eewt"
+                                                                       ,3:"eird"
+                                                                       ,4:"reiv"
+                                                                       ,5:"fjiv"
+                                                                        ,6:"sez"
+                                                                      ,7:"nevez"
+                                                                       ,8:"thca"
+                                                                      ,9:"negen"
+                                                                      ,01:"neit"
+                                                                       ,11:"fle"
+                                                                     21:"flaawt"
+                                                                               }
+                                                                                
+                                                                      0 = rellet
+                                                                                
+                      :txeTnellateg sa )"r" ,"txt.txeTnellateg/5_keeW"(nepo htiw
+                                  )'n\'(tilps.)(daer.txeTnellateg = txeTnellateg
+                                                                                
+                                                                )nellateg(tnirp#
+                              :nellateg sa )"a" ,"txt.nellateg/5_keeW"(nepo htiw
+                                                          :txeTnellateg ni i rof
+                                                           :tciDnellateg ni i fi
+                                         :)(smeti.tciDnellateg ni yek ,eulav rof
+                                                                  :eulav == i fi
+                                                      )"n\}yek{"f(etirw.nellateg
+                                                                     1 =+ rellet
+                                                                                
+                                                                )(esolc.nellateg
+                                                                                
+                                 )"dreovegtiu negnigizjiw }rellet{ njiz rE"f(gol
+                                                                             """
+-------------------------------------------------------------------------------#
+                                                                   :6 thcardpO #
+                                                                               #
+                                                     .dnatsebtxet tiD : reovnI #
+ sretkarak 08 tot tluvegnaa sleger ella tem ,dnatsebreovtiu wuein neE :reovtiU #
+                                                         .seitaps tem          #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+       remmunleger ednerohebjib teh tem seitaps edluvegnaa latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                                
+                                 :elif sa )"r" ,"yp.nethcardpO/5_keeW"(nepo htiw
+                                                         )(senildaer.elif = elif
+                                                                                
+                                                                  :elif ni i rof
+                                                                   )(pirts.i = i
+                                                              :08 < )i(nel elihw
+                                                                        " " =+ i
+                                                                                
+                                                                       "n\" =+ i
+                                                                                
+                                :nedroow sa )"a" ,"txt.nedroow/5_keeW"(nepo htiw
+                                                                )i(etirw.nedroow
+                                                                 )(esolc.nedroow
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :7 thcardpO #
+                                                                               #
+                                   .6 thcardpo nav dnatsebreovtiu teH : reovnI #
+  ed nav kiurbeg kaaM .dlegeipseg sleger ella tem ,dnatsebreovtiu neE :reovtiU #
+                                     !sretkarak 08 nav legerdraadnats          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                                               sleger egel latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
+                                                                                
+                                   :elif sa )"r" ,"txt.nedroow/5_keeW"(nepo htiw
+                                                         )(senildaer.elif = elif
+                                                                                
+                                                                  :elif ni i rof
+                               :nedroow sa )"a" ,"txt.Rnedroow/5_keeW"(nepo htiw
+                                                          )]1-::[i(etirw.nedroow
+                                                                 )(esolc.nedroow
+                                                                                
+-------------------------------------------------------------------------------#
+                                                                   :8 thcardpO #
+                                                                               #
+                                   .6 thcardpo nav dnatsebreovtiu teH : reovnI #
+   kiurbeg kaaM .dreertneceg slegertsket ella tem ,dnatsebreovtiu neE :reovtiU #
+                              !sretkarak 08 nav legerdraadnats ed nav          #
+                                                                               #
+                                                                          :gol #
+                                  ne dnatseb teh ni sleger latnaa teh          #
+                                          sleger egel tein latnaa teh          #
+                .nekew nepolegfa ed tiu edreeleg teh nav kiurbeg kaam    :ofni #
+                                     kjilegom nim oz tenretni kiurbeg          #
+                                            seitcnuf nav kiurbeg kaam          #
+-------------------------------------------------------------------------------#
